@@ -63,3 +63,12 @@ with the returned text so citations and source references remain accurate.
 
 - API documentation: https://replynodes.com/markdown-api/
 - Canonical skill source: https://github.com/replynodes/replynodes-agent-skills/tree/main/skills/url-to-markdown
+
+## Limitations
+
+- The endpoint returns a single page's rendered content; it does not crawl,
+  follow links, or authenticate, so private, paywalled, or JavaScript-gated
+  pages may come back empty or partial.
+- The hosted service is run by ReplyNodes, not this catalog: a public page's
+  target URL and fetched content pass through its servers, and availability
+  depends on the service being reachable.
